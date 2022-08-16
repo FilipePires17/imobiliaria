@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Link from 'next/link'
-import { FaFacebook, FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa'
 
 import {
   FooterContainer,
@@ -26,24 +25,16 @@ function Footer () {
 
         <SocialMedias className='social-medias'>
           <SocialMediaItem>
-            <Link href='#'>
-              <FaFacebook size={40} />
-            </Link>
+            <Link href='#'>Facebook</Link>
           </SocialMediaItem>
           <SocialMediaItem>
-            <Link href='#'>
-              <FaInstagram size={40} />
-            </Link>
+            <Link href='#'>Insta</Link>
           </SocialMediaItem>
           <SocialMediaItem>
-            <Link href='#'>
-              <FaTwitter size={40} />
-            </Link>
+            <Link href='#'>Twitter</Link>
           </SocialMediaItem>
           <SocialMediaItem>
-            <Link href='#'>
-              <FaEnvelope size={40} />
-            </Link>
+            <Link href='#'>Envelop</Link>
           </SocialMediaItem>
         </SocialMedias>
         <FooterMenu className='footer-menu'>
