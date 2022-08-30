@@ -4,15 +4,15 @@ import { MAIN } from '../../styles/Colors'
 export const FooterContainer = styled.footer`
   position: relative;
   margin-top: 300px;
-  top: 600px;
+  top: 100px;
   width: 100%;
   background: ${MAIN};
   color: white;
   height: 300px;
   padding: 50px;
-  border-radius: 60px 0 0 0;
 `
 export const Logo = styled.div`
+  border-radius: 60px 0 0 0;
   font-size: 32px;
   font-weight: bold;
 `

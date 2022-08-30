@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Home from '../components/home'
 
 export default function App () {
   return (
@@ -7,9 +7,7 @@ export default function App () {
       <Head>
         <title>Gilson</title>
       </Head>
-      <main>
-        <div id='sobre'></div>
-      </main>
+      <Home />
     </>
   )
 }
