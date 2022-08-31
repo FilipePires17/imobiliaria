@@ -12,20 +12,20 @@ import {
 function Header () {
   return (
     <HeaderContainer className='container'>
-      <Logo href='/'>Imobiliaria</Logo>
+      <Logo href='/'>Real State</Logo>
       <Menu>
         <MenuContent>
           <Link href='/'>
             <MenuItem>Home</MenuItem>
           </Link>
-          <Link href='/imoveis'>
-            <MenuItem>Imóveis</MenuItem>
+          <Link href='/realstate'>
+            <MenuItem>Houses</MenuItem>
           </Link>
-          <Link href='/#sobre'>
-            <MenuItem>Sobre</MenuItem>
+          <Link href='/#about'>
+            <MenuItem>About us</MenuItem>
           </Link>
-          <Link href='/contato'>
-            <MenuItem>Contato</MenuItem>
+          <Link href='/sns'>
+            <MenuItem>Contact us</MenuItem>
           </Link>
         </MenuContent>
       </Menu>

@@ -20,7 +20,7 @@ function Footer () {
     <>
       <FooterContainer>
         <Logo className='logo'>
-          <LogoDetail>RS</LogoDetail>ky
+          Real State
         </Logo>
 
         <SocialMedias className='social-medias'>
@@ -40,22 +40,22 @@ function Footer () {
         <FooterMenu className='footer-menu'>
           <FooterMenuContent>
             <FooterMenuItem>
-              <FooterMenuLink href='#'>Home</FooterMenuLink>
+              <FooterMenuLink href='/'>Home</FooterMenuLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <FooterMenuLink href='#'>Explorar</FooterMenuLink>
+              <FooterMenuLink href='/realstate'>Houses</FooterMenuLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <FooterMenuLink href='#'>Sobre</FooterMenuLink>
+              <FooterMenuLink href='/#about'>About us</FooterMenuLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <FooterMenuLink href='#'>Contato</FooterMenuLink>
+              <FooterMenuLink href='/sns'>Contact us</FooterMenuLink>
             </FooterMenuItem>
           </FooterMenuContent>
         </FooterMenu>
         <Copyright className='copyright'>
-          {new Date().getFullYear()} {'\u00A9'} Todos os direitos reservados -
-          Elian Campos{' '}
+          {new Date().getFullYear()} {'\u00A9'} All rights belong to -
+          Filipe{' '}
         </Copyright>
       </FooterContainer>
     </>
